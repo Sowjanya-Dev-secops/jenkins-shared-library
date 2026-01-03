@@ -9,7 +9,8 @@ def call(Map configMap){
         environment {
             COURSE = "Jenkins"
             appVersion = ""
-            ACC_ID = "6681-8323-6892" //wehave to replace this with our account id
+            //wehave to replace this with our account id
+            ACC_ID = "6681-8323-6892"
             PROJECT = "roboshop"
             COMPONENT = "catalogue"
         }
