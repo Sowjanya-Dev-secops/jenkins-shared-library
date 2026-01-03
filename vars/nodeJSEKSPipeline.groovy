@@ -11,8 +11,10 @@ def call(Map configMap){
             appVersion = ""
             //wehave to replace this with our account id
             ACC_ID = "668183236892"
-            PROJECT = "roboshop"
-            COMPONENT = "catalogue"
+            // PROJECT = "roboshop"
+            // COMPONENT = "catalogue"
+            PROJECT = configMap.get("project")
+            COMPONENT = configMap.get("component")
         }
         options {
             timeout(time: 10, unit: 'MINUTES') 
