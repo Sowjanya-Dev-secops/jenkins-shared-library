@@ -9,7 +9,7 @@ def call(Map configMap){
         environment {
             COURSE = "Jenkins"
             appVersion = ""
-            ACC_ID = "160885265516"
+            ACC_ID = "6681-8323-6892" //wehave to replace this with our account id
             PROJECT = "roboshop"
             COMPONENT = "catalogue"
         }
@@ -73,7 +73,7 @@ def call(Map configMap){
                         expression { false }
                 }
                 environment {
-                    GITHUB_OWNER = 'daws-86s'
+                    GITHUB_OWNER = 'Sowjanya-Dev-secops'
                     GITHUB_REPO  = 'catalogue'
                     GITHUB_API   = 'https://api.github.com'
                     GITHUB_TOKEN = credentials('GITHUB_TOKEN')
